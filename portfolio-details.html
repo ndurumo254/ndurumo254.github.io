@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Details - Personal Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+    
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-1.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-1.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-1.jpg" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Data engineering</h3>
+              <ul>
+                <li><strong>Category</strong>: spark etl</li>
+                <li><strong>technology</strong>: spark and mysql</li>
+                <li><strong>Project date</strong>: </li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/ndurumo254/data-engineering/tree/main/csv_to_mysql_ETL">project link</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Project description</h2>
+              <p>One of the essential processes in data engineering is the Extract, Transform, and load process (ETL).
+                This process helps us to move data from one system to another, reformat it and even clean it up 
+                when necessary. 
+               In this project, I used Python to extract data from a CSV file and load it into a MySQL database</p>
+             <p>Usually, every ETL process starts by extracting data from the source. 
+               I carried out the project using pyspark. 
+               I read the CSV data using the pyspark, performed some data transformation,
+                and stored it in the MySQL database</p>
+             <p>To achieve this, I started creating a spark session and connected it to the MySQL database.
+                I then created a cursor object and executed the SQL commands to create the table from my CSV data.
+                 I then iterated over the rows in my csv file extracting the data from each row 
+                 and inserting it into mysql table using an SQL insert command</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+    
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-3.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-3.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-3.jpg" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Data engineering</h3>
+              <ul>
+                <li><strong>Category</strong>: Spark Etl</li>
+                <li><strong>Project date</strong>:</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/ndurumo254/data-engineering/blob/main/postgresql_to_mysql_ETL.ipynb">project link</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Project description</h2>
+              <p>
+                ETL is a process that I use to extract, transform, 
+                and load data from one system to another. 
+                Pyspark is a big data processing engine that can process huge datasets quickly.
+                 This project explored a simple ETL process that extracts data from a Postgresql,
+                 transform it using pyspark, and load it to the MySQL database
+              </p>
+              <p>
+                To connect the PostgreSQL to the pyspark mysql-connector library is used. The process I took in this includes;
+              </p>
+              <p>
+                Extracting data from Postgresql. Data extraction is the first process in every ETL process.
+              </p>
+              <p>
+                Data transformation is the second step. 
+                Data needs to be transformed in order to transform it into the 
+                format that can be loaded to the target MySQL database. 
+                Several processes are can be carried out in this stage. 
+                Some of the processes carried out in this step include; data type conversion,
+                 data cleansing, and data aggregation. In this process,
+                  I carried out some data transformation and grouped the data into a salary 
+                  table in relation to the salary. The grouped data was filtered to employees with 
+                  above 150k salary.
+              </p>
+              <p>
+                The last stage is the data loading stage. Here I loaded data into the MySQL database.
+                 To connect the pyspark to the mysql mysql connector library is used. 
+                Finally, I loaded the grouped table to MySQL database in the database called users and orders table
+              </p>
+          
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+    
+
+  </main><!-- End #main -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
